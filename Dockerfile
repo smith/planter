@@ -6,6 +6,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 RUN npm ci --omit=dev
+RUN npm run build:ts
 # Bundle app source
 COPY . .
 CMD [ "node", "index.js" ]
