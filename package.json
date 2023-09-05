@@ -1,0 +1,27 @@
+{
+  "name": "planter",
+  "version": "0.1.0",
+  "description": "Add items to Harvest Time Tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "harvest",
+    "time",
+    "tracking"
+  ],
+  "author": "Nathan L Smith <nathan.smith@elastic.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@elastic/ecs-pino-format": "^1.3.0",
+    "node-fetch": "^3.3.1",
+    "pino": "^8.11.0"
+  },
+  "type": "module"
+}
