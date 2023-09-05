@@ -1,4 +1,5 @@
 node_modules
 npm-debug.log
 index.ts
+README.md
 tsconfig.json
