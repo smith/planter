@@ -4,7 +4,9 @@
   "description": "Add items to Harvest Time Tracking",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ts": "tsc",
+    "build:docker": "docker buildx build --platform linux/amd64,linux/arm64 --push -t ghcr.io/smith/planter:latest ."
   },
   "keywords": [
     "harvest",
